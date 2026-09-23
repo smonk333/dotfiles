@@ -20,4 +20,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # make the tab completion menu interactive and navigable with arrow keys
 zstyle ':completion:*' menu select
 
+# bitwarden SSH socket config
 export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
+
+export EDITOR=nano
