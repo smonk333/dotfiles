@@ -25,3 +25,6 @@ export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
 
 # set the default editor to nano
 export EDITOR=nano
+
+# initialize Starship
+eval "$(starship init zsh)"
