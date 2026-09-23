@@ -11,5 +11,13 @@ zstyle :compinstall filename '/home/smoke/.zshrc'
 
 autoload -Uz compinit
 compinit
+
 # End of lines added by compinstall
+
+# enable autosuggestions
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# make the tab completion menu interactive and navigable with arrow keys
+zstyle ':completion:*' menu select
+
 export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
